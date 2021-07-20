@@ -1,0 +1,78 @@
+html{
+	background-color: black;
+}
+body{
+	height: 100%;
+}
+ .background{
+ 	height: 100%;
+	background-image: url(../images/3.jpg);
+ 	background-size: cover;
+ 	position: relative;
+ 	overflow: auto;
+ 	background-attachment: fixed;
+}
+ .container,a {
+	margin: auto;
+	overflow: hidden;
+	background-color: green;
+	color: black;
+	text-align: right;
+	padding-left: 5px;
+	height: 20%;
+}
+
+a:hover{
+	background-color: #000000;
+	color: white;
+	width: 100%;
+}
+.p{
+	color: white;
+	padding-left: 5%;
+	size: 50px;
+}
+h1{
+	background-color: #000000;
+	color: white;
+	width: 30%;
+	text-align: center;
+}
+h2{
+	padding-left: 10px;
+	background-color: red;
+	color: white;
+	width: 50%
+}
+h3{
+	background-color: white;
+	padding-left: 5px;
+	width: 35%
+}
+
+.unique{
+	width: 5px;
+	height: 5px;
+	padding-left: 40%;
+}
+.box {
+  margin: 30px;
+  background-color: lightgreen;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+li{
+	color: black;
+}
+#all{
+	height: 60px;
+	background-color: gray;
+	padding-top: 10px;
+	color: white;
+}
+
+
+
+
